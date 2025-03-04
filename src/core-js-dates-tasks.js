@@ -111,7 +111,7 @@ function getNextFriday(date) {
       daysToFriday = 4;
       break;
   }
-  date.setDate(date.getDate() + daysToFriday);
+  date.setDate(date.getDate() + daysToFriday + 1);
   return date;
 }
 
