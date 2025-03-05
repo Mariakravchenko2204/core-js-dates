@@ -113,7 +113,6 @@ function getNextFriday(date) {
   }
   date.setDate(date.getDate() + daysToFriday + 1);
   return date;
-  // throw new Error('Not implemented');
 }
 
 /**
